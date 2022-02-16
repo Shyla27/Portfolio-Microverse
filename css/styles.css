@@ -6,7 +6,7 @@ body {
   header {
     background-color: #1c1a19;
     color: white;
-    background-image: url("./images/illustration-header-mobile.svg");
+    background-image: url("images/illustration-header-mobile.svg");
     background-repeat: no-repeat;
     background-size: 150px;
     background-position: right bottom;
