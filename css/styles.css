@@ -55,6 +55,10 @@ header {
   color: #fff;
 }
 
+.menu-item ul {
+  display: flex;
+}
+
 .projects section img {
   width: 100%;
   margin-top: 50px;
@@ -163,4 +167,36 @@ section button {
   font-size: 16px;
   line-height: 24px;
   padding: 20px;
+}
+.language ul li {
+  background-color: rgba(255, 255, 255, 0.342);
+  padding: 10px;
+  margin-right: 10px;
+  list-style-type: none;
+  transition: all 1s ease;
+}
+
+.codinglangs ul li {
+  list-style-type: none;
+  line-height: 2;
+}
+
+.frameworks ul li {
+  list-style-type: none;
+  line-height: 2;
+}
+
+.noncoding ul li {
+  list-style-type: none;
+  line-height: 2;
+}
+
+footer form ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer form ul li {
+  width: 100%;
 }
