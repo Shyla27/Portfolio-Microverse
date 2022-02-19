@@ -55,6 +55,18 @@ header {
   color: #fff;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 14px;
+  position: absolute;
+  width: 375px;
+  height: 844px;
+  left: 0px;
+  top: 2500px;
+}
+
 footer form ul {
   padding: 0;
   display: flex;
@@ -177,6 +189,14 @@ section button {
   font-size: 16px;
   line-height: 24px;
   padding: 20px;
+}
+
+.language{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 12px;
+  position: absolute;
 }
 
 .language ul li {
